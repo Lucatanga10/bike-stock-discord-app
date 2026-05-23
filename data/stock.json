@@ -1,0 +1,41 @@
+{
+  "config": {},
+  "checks": [
+    {
+      "ts": 1779531272087,
+      "status": "out_of_stock",
+      "name": "C100 V3 MTB - Aqua Blue",
+      "price": "882.95",
+      "url": "https://www.collectivebikes.com/products/c100-v3-mtb-aqua-blue",
+      "variant": "",
+      "raw": {
+        "reasons": [
+          "Endpoint Shopify .js non disponibile (sito non Shopify o errore).",
+          "JSON-LD availability=http://schema.org/outofstock",
+          "HTML cart button enabled=false text=\"Sold out\"",
+          "HTML contiene parole \"fuori scorta\".",
+          "Voti: jsonld=OUT, btn=OUT -> out_of_stock"
+        ],
+        "doubleChecked": false
+      }
+    },
+    {
+      "ts": 1779531950825,
+      "status": "out_of_stock",
+      "name": "C100 V3 MTB - Aqua Blue",
+      "price": "882.95",
+      "url": "https://www.collectivebikes.com/products/c100-v3-mtb-aqua-blue",
+      "variant": "",
+      "raw": {
+        "reasons": [
+          "Endpoint Shopify .js non disponibile (sito non Shopify o errore).",
+          "JSON-LD availability=http://schema.org/outofstock",
+          "HTML cart button enabled=false text=\"Sold out\"",
+          "HTML contiene parole \"fuori scorta\".",
+          "Voti: jsonld=OUT, btn=OUT -> out_of_stock"
+        ],
+        "doubleChecked": false
+      }
+    }
+  ]
+}

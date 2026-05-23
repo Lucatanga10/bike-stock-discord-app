@@ -1,0 +1,23 @@
+{
+  "name": "bike-stock-discord-app",
+  "version": "1.0.0",
+  "description": "Discord User-Installable App per monitorare la disponibilita di una bici online (Shopify) via slash command in DM e Group DM.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "postinstall": "playwright install chromium"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "playwright": "1.60.0",
+    "undici": "^6.20.0"
+  },
+  "license": "MIT"
+}
